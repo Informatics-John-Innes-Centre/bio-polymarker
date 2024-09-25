@@ -3,7 +3,7 @@ require 'bio'
 require 'optparse'
 $: << File.expand_path(File.dirname(__FILE__) + '/../lib')
 $: << File.expand_path('.')
-path= File.expand_path(File.dirname(__FILE__) + '/../lib/bioruby-polyploid-tools.rb')
+path= File.expand_path(File.dirname(__FILE__) + '/../lib/bio-polymarker.rb')
 require path
 
 options = {}

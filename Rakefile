@@ -25,13 +25,13 @@ end
 
 @taskClass::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-   gem.name = "bio-polyploid-tools"
-  gem.homepage = "http://github.com/tgac/bioruby-polyploid-tools"
+   gem.name = "bio-polymarker"
+  gem.homepage = "https://github.com/cb2e6f/bio-polymarker"
   gem.license = "MIT"
   gem.summary = %Q{Tool to work with polyploids, NGS and molecular biology}
   gem.description = %Q{Repository of tools developed at Crop Genetics in JIC to work with polyploid wheat}
-   gem.email = "ricardo.ramirez-gonzalez@jic.ac.uk"
-  gem.authors = ["Ricardo H.  Ramirez-Gonzalez"]
+   gem.email = "rob.ellis@jic.ac.uk"
+  gem.authors = ["Rob Ellis"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #gem.add_runtime_dependency 'bio-samtools', '= 0.6.2'

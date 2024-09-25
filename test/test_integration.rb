@@ -1,6 +1,6 @@
 $: << File.expand_path(File.dirname(__FILE__) + '/../lib')
 $: << File.expand_path('.')
-path= File.expand_path(File.dirname(__FILE__) + '/../lib/bioruby-polyploid-tools.rb')
+path= File.expand_path(File.dirname(__FILE__) + '/../lib/bio-polymarker.rb')
 
 tmp_verb = $VERBOSE
 $VERBOSE=nil
