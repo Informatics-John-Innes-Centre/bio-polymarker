@@ -8,6 +8,8 @@ gem "bio-samtools-wrapper", ">= 2.7.0"
 gem "descriptive_statistics"
 #gem "rake"
 
+gem "sorted_set"
+
 gem "systemu", ">=2.5.2"
 
 group :development do

@@ -59,15 +59,18 @@
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.8.1, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v3.1.7, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.2.1, rbenv: 3.3.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rbtree (v0.4.6, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rchardet (v1.8.0, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.7.0, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.5.10, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby2_keywords (v0.0.5, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="securerandom (v0.3.1, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="semver2 (v3.4.2, rbenv: 3.3.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="set (v1.1.0, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shoulda (v4.0.0, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shoulda-context (v2.0.0, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="shoulda-matchers (v4.5.1, rbenv: 3.3.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sorted_set (v1.0.3, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringio (v3.1.1, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="systemu (v2.6.5, rbenv: 3.3.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="test-unit (v3.6.2, rbenv: 3.3.5) [gem]" level="application" />
