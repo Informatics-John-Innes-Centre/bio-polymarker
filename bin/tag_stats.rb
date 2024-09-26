@@ -4,7 +4,7 @@ require 'optparse'
 require 'csv'
 require 'fileutils'
 require 'tmpdir'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 require 'bio'
 require 'descriptive_statistics'
 

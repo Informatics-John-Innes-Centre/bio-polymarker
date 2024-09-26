@@ -2,7 +2,7 @@
 require 'bio'
 require 'rubygems'
 require 'pathname'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 require 'optparse'
 require 'set'
 $: << File.expand_path(File.dirname(__FILE__) + '/../lib')
@@ -20,7 +20,7 @@ def validate_files(o)
     o[:mutant_list],
     o[:reference]
   ].flatten.compact.each do |f|  
-        raise IOError.new "Unable to read #{f}" unless File.exists? f 
+        raise IOError.new "Unable to read #{f}" unless File.exist? f
     end
 end 
 

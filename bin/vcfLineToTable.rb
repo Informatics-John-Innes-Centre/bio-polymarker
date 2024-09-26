@@ -1,4 +1,4 @@
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 require 'optparse'
 
 $: << File.expand_path(File.dirname(__FILE__) + '/../lib')

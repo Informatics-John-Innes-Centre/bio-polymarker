@@ -8,7 +8,7 @@ require 'pathname'
 
 
 require 'bio'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 
 require "set"
 require 'systemu'

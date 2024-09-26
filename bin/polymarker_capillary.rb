@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'bio'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 require 'pathname'
 require 'optparse'
 

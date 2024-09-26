@@ -4,7 +4,7 @@ require 'optparse'
 
 require 'csv'
 require 'bio'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 
 $: << File.expand_path(File.dirname(__FILE__) + '/../lib')
 $: << File.expand_path('.')

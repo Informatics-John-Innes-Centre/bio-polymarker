@@ -4,7 +4,7 @@ source "http://rubygems.org"
 #   gem "activesupport", ">= 2.3.5"
 
 gem "bio", ">= 1.5.1"
-gem "bio-samtools", ">= 2.6.2"
+gem "bio-samtools-wrapper", ">= 2.7.0"
 gem "descriptive_statistics"
 #gem "rake"
 

@@ -6,7 +6,7 @@ tmp_verb = $VERBOSE
 $VERBOSE=nil
 #puts path
 require path
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 require "test/unit"
 $VERBOSE=tmp_verb
 

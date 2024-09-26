@@ -206,7 +206,7 @@ Gem::Specification.new do |s|
 
   if s.respond_to? :add_runtime_dependency then
     s.add_runtime_dependency(%q<bio>.freeze, [">= 1.5.1"])
-    s.add_runtime_dependency(%q<bio-samtools>.freeze, [">= 2.6.2"])
+    s.add_runtime_dependency(%q<bio-samtools-wrapper>.freeze, [">= 2.7.0"])
     s.add_runtime_dependency(%q<descriptive_statistics>.freeze, [">= 0"])
     s.add_runtime_dependency(%q<systemu>.freeze, [">= 2.5.2"])
     s.add_development_dependency(%q<shoulda>.freeze, [">= 2.10"])
@@ -214,7 +214,7 @@ Gem::Specification.new do |s|
     s.add_development_dependency(%q<juwelier>.freeze, [">= 0"])
   else
     s.add_dependency(%q<bio>.freeze, [">= 1.5.1"])
-    s.add_dependency(%q<bio-samtools>.freeze, [">= 2.6.2"])
+    s.add_dependency(%q<bio-samtools-wrapper>.freeze, [">= 2.7.0"])
     s.add_dependency(%q<descriptive_statistics>.freeze, [">= 0"])
     s.add_dependency(%q<systemu>.freeze, [">= 2.5.2"])
     s.add_dependency(%q<shoulda>.freeze, [">= 2.10"])

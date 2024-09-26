@@ -2,7 +2,7 @@
 require 'bio'
 require 'rubygems'
 require 'pathname'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 
 require 'set'
 

@@ -1,6 +1,6 @@
 
 require_relative "SNP"
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 module Bio::PolyploidTools
   class SNPSequenceException < RuntimeError 
   end

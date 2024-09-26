@@ -2,7 +2,7 @@
 require 'bio'
 require 'rubygems'
 require 'pathname'
-require 'bio-samtools'
+require 'bio-samtools-wrapper'
 require 'optparse'
 require 'set'
 $: << File.expand_path(File.dirname(__FILE__) + '/../lib')
