@@ -1,0 +1,12 @@
+BootStrap: yum
+OSVersion: 9
+MirrorURL: http://repo.almalinux.org/almalinux/%{OSVERSION}/BaseOS/x86_64/os
+Include: dnf
+
+%post
+dnf groupinstall -y "Development Tools"
+dnf install -y ruby
+dnf install -y ncurses-devel
+dnf install -y bzip2-devel
+gem install --no-user-install rake
+gem install --no-user-install bio-polymarker
