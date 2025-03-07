@@ -1,0 +1,35 @@
+BootStrap: yum
+OSVersion: 9
+MirrorURL: http://repo.almalinux.org/almalinux/%{OSVERSION}/BaseOS/x86_64/os
+Include: dnf
+
+%post
+dnf group install -y "Development Tools"
+mkdir sw
+cd sw
+dnf install -y wget
+wget https://mafft.cbrc.jp/alignment/software/mafft-7.526-gcc_fc6.x86_64.rpm
+dnf install -y ./mafft-7.526-gcc_fc6.x86_64.rpm
+wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.16.0/ncbi-blast-2.16.0+-1.x86_64.rpm
+dnf install -y ./ncbi-blast-2.16.0+-1.x86_64.rpm
+wget https://github.com/primer3-org/primer3/archive/refs/tags/v2.6.1.tar.gz
+tar -xf v2.6.1.tar.gz
+cd primer3-2.6.1/
+cd src/
+make
+make install
+cd ../..
+dnf install -y glib2-devel
+wget https://github.com/cb2e6f/exonerate/archive/refs/tags/v2.4.0.tar.gz
+tar -xf v2.4.0.tar.gz
+cd exonerate-2.4.0/
+./configure
+make
+make install
+cd ../..
+rm -rf sw
+dnf install -y ruby
+dnf install -y ncurses-devel
+dnf install -y bzip2-devel
+gem install --no-user-install rake
+gem install --no-user-install bio-polymarker
