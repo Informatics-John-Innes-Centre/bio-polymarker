@@ -70,16 +70,16 @@ rm -rf sw
 #### Dependencies
 
 ```shell
-dnf install -y ruby
-dnf install -y ncurses-devel
-dnf install -y bzip2-devel
-gem install --no-user-install rake
+sudo dnf install -y ruby
+sudo dnf install -y ncurses-devel
+sudo dnf install -y bzip2-devel
+sudo gem install --no-user-install rake
 ```
 
 #### polymarker
 
 ```shell
-gem install --no-user-install bio-polymarker
+sudo gem install --no-user-install bio-polymarker
 ```
 
 ---
