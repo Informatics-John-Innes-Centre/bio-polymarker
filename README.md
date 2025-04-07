@@ -76,6 +76,13 @@ sudo dnf install -y bzip2-devel
 sudo gem install --no-user-install rake
 ```
 
+On recent versions of ruby *sorted_set* is also required:
+
+```shell
+sudo dnf install -y ruby-devel
+sudo gem install --no-user-install sorted_set
+```
+
 #### polymarker
 
 ```shell
