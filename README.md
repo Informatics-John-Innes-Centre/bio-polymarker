@@ -22,72 +22,8 @@ Fundamentally the steps for installation are:
 
 ### RHEL / AlmaLinux
 
-A more detailed example of installing polymarker, and it's required tools on a fresh install of RHEL/AlmaLinux 9 looks
-something like this:
-
-#### Required applications
-
-```shell
-# install development tools so we can build stuff
-sudo dnf group install -y "Development Tools"
-
-# create a directory where we can download and build our required applications
-mkdir sw
-cd sw
-
-# get and install mafft
-wget https://mafft.cbrc.jp/alignment/software/mafft-7.526-gcc_fc6.x86_64.rpm
-sudo dnf install -y ./mafft-7.526-gcc_fc6.x86_64.rpm
-
-# get and install blast
-wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.16.0/ncbi-blast-2.16.0+-1.x86_64.rpm
-sudo dnf install -y ./ncbi-blast-2.16.0+-1.x86_64.rpm 
-
-# get, build and install primer3
-wget https://github.com/primer3-org/primer3/archive/refs/tags/v2.6.1.tar.gz
-tar -xf v2.6.1.tar.gz 
-cd primer3-2.6.1/
-cd src/
-make
-sudo make install
-cd ../..
-
-# get, build and install exonerate
-
-sudo dnf install -y glib2-devel
-wget https://github.com/cb2e6f/exonerate/archive/refs/tags/v2.4.0.tar.gz
-tar -xf v2.4.0.tar.gz 
-cd exonerate-2.4.0/
-./configure
-make
-sudo make install
-cd ../..
-
-# can now optionally remove our download and build directory
-rm -rf sw
-```
-
-#### Dependencies
-
-```shell
-sudo dnf install -y ruby
-sudo dnf install -y ncurses-devel
-sudo dnf install -y bzip2-devel
-sudo gem install --no-user-install rake
-```
-
-On recent versions of ruby *sorted_set* is also required:
-
-```shell
-sudo dnf install -y ruby-devel
-sudo gem install --no-user-install sorted_set
-```
-
-#### polymarker
-
-```shell
-sudo gem install --no-user-install bio-polymarker
-```
+A more detailed example of installing polymarker, and it's required tools on a 
+fresh install of RHEL/AlmaLinux 9 can be found [here](INSTALL.md).
 
 ---
 
